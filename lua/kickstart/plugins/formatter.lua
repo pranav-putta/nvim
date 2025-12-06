@@ -93,8 +93,8 @@ return {
           python = {
             function()
               return {
-                exe = 'black',
-                args = { '--quiet', '-' },
+                exe = 'ruff',
+                args = { 'format', '-' },
                 stdin = true,
               }
             end,

@@ -9,7 +9,7 @@ return {
           ".local/share/nvim/lazy",
         },
         formatter_by_ft = {
-          python = formatters.black,
+          python = formatters.shell({ cmd = { "ruff", "format", "-" } }),
           javascript = formatters.prettierd,
           typescript = formatters.prettierd,
           typescriptreact = formatters.prettierd

@@ -105,18 +105,10 @@ vim.keymap.set('n', '<leader>T', '<Cmd>Telescope colorscheme<CR>', { desc = 'The
 -- terminal mapping
 vim.keymap.set('n', '<leader>t', '<Cmd>FloatermNew zsh<CR>', { desc = 'Terminal' })
 
--- more descriptions
-wk.register({
-  b = {
-    name = '󰓩 Buffers/Tabs',
-  },
-  s = {
-    name = ' Search/File Browser',
-  },
-  g = {
-    name = ' Git',
-  },
-  m = {
-    name = 'Map',
-  },
-}, { prefix = '<leader>' })
+-- more descriptions (new which-key spec)
+wk.add({
+  { '<leader>b', group = 'Buffers/Tabs' },
+  { '<leader>s', group = 'Search/File Browser' },
+  { '<leader>g', group = 'Git' },
+  { '<leader>m', group = 'Map' },
+})
