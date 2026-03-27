@@ -38,6 +38,7 @@
   "overseer.nvim": { "branch": "master", "commit": "6a7f22dcafd9e938f70eb52b7f64f272d2b23b41" },
   "plenary.nvim": { "branch": "master", "commit": "b9fd5226c2f76c951fc8ed5923d85e4de065e509" },
   "remote.nvim": { "branch": "main", "commit": "8fcf89ccc01237615c0be9dbf2ca2724363110f5" },
+  "render-markdown.nvim": { "branch": "main", "commit": "07d088bf8bdadd159eb807b90eaee86a4778383f" },
   "secret": { "branch": "master", "commit": "5b8a833fe99a7d51b5dafb53191805952d2d2eb4" },
   "sqlite.lua": { "branch": "master", "commit": "50092d60feb242602d7578398c6eb53b4a8ffe7b" },
   "symbols-outline": { "branch": "master", "commit": "564ee65dfc9024bdde73a6621820866987cbb256" },

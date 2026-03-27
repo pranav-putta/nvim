@@ -13,7 +13,7 @@ return {
             '--single-quote',
             '--no-bracket-spacing',
             '--prose-wrap',
-            'always',
+            'preserve',
             '--arrow-parens',
             'always',
             '--trailing-comma',
